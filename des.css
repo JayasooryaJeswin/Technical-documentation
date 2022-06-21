@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+body{
+  background-color: #03A9F4;
+}
+
+h1{
+  color: white;
+  font-family: 'Roboto Mono',monospace;
+  text-align: center;
+  text-shadow: 1px 1px 4px #000000;
+}
+
+.surveyform{
+  background-color: white;
+  max-width: 600px;
+  margin: auto ;
+  padding: 20px 30px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px #000000;
+}
+
+.name-control{
+  font-family: 'Roboto Mono',monospace;
+  font-weight: bold;
+}
+
+.mail-control{
+  font-family: 'Roboto Mono',monospace;
+  font-weight: bold;
+}
+.name-control input, .mail-control input{
+  border-radius: 3px;
+}
+.name-control input,label{
+  margin-top: 10px;
+  display: block;
+}
+
+.mail-control input,label{
+  margin-top: 10px;
+  display: block;
+}
+
+.exp , .sat ,.suggestion{
+  font-family: 'Monoto Mono',monospace;
+  font-weight: bold;
+}
+
+.exp input{
+  margin-top: 20px;
+}
+
+.exp label{
+  margin-top:50px;
+}
+
+.sat label{
+  margin-top:30px;
+}
+
+.sat input{
+  margin-top: 20px;
+}
+
+.suggestion label{
+  margin-top: 30px;
+}
+
+.suggestion textarea{
+  margin-top: 10px;
+}
+
+.para{
+  font-family: 'Roboto Mono',monospace;
+  color: white;
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+}
+
+.submit input{
+  margin-top: 30px;
+  font-weight: bold;
+  font-family: 'Roboto Mono',monospace;
+  color: white;
+  background-color: #03A9F4;
+  border-color: #03A9F4;
+}
